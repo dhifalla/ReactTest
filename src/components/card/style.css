@@ -1,0 +1,142 @@
+ .position{
+   top: 250px;
+   position: absolute;
+ }
+ 
+    
+.row{
+    columns: 2 auto;
+    flex-direction: column;
+    vertical-align: baseline;
+    margin-left: 150px;
+    margin-right: auto;
+    width: 100em
+    
+}
+.image {
+    
+    position: relative;
+    width: 700px;
+    vertical-align: baseline;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+.logo{
+width: 70px;    
+}
+
+ 
+ 
+ 
+ 
+#reseau_menu
+{
+    width: 300px;
+ 
+}
+.log{
+    margin-left : -40px;
+    width : 35%;
+    background: left;
+    float:left;
+      
+}
+.desc{
+    font-size: 10px;
+}
+.button{
+    background-color: rgb(82, 3, 20);
+    color: white;
+}
+
+.btn {
+    columns: 2 auto;
+    width:auto;
+    height:auto;
+   
+    margin-left: 10px !important;
+ 
+    background-color: #EA4C89;
+    border-radius: 20px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+ 
+    position: relative;
+    text-align:justify;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+ 
+     
+ 
+  
+    
+  }
+  .li{ line-height-step: inherit;
+  
+  }
